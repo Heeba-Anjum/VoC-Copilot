@@ -3,7 +3,7 @@ import axios from 'axios'
 import Papa from 'papaparse'
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend } from 'recharts'
 
-const API_BASE = 'http://localhost:5000'
+const API_BASE = 'https://voc-copilot.onrender.com'
 
 function App() {
   const [inputText, setInputText] = useState('')
